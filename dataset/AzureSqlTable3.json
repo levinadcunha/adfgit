@@ -1,0 +1,37 @@
+{
+	"name": "AzureSqlTable3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "destLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "product_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "product_Category_Id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "product",
+				"type": "varchar"
+			},
+			{
+				"name": "new_id",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "mstProduct_new"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
