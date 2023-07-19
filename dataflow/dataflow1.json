@@ -10,7 +10,7 @@
 						"type": "DatasetReference"
 					},
 					"name": "RGDevInput",
-					"description": "From RGDev database "
+					"description": "From RGDev database main"
 				}
 			],
 			"sinks": [
